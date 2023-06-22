@@ -31,6 +31,17 @@ Ansible
 Jenkins
 -----------------------------------------------------------------------------------------------------------------------
 16. How to save only last 5 builds of jenkins job?
+Anst allows you to define and manage different branches of your version control system as separate pipelines, each with its own configuration and automation rules.
+
+1.Automated Branch Management: With multi-branch pipelines, you don't need to manually create and manage individual pipelines for each branch of your codebase.
+2.Branch-Specific Workflows: Each branch can have its own unique build, test, and deployment workflows. This flexibility enables you to define different automation rules for different branches, such as running specific tests for feature branches or triggering deployment only for the main branch.
+3.Isolated Environments:
+4.Improved Visibility and Traceability:
+5.Parallel Execution: Multi-branch pipelines can execute builds and tests in parallel across different branches, leading to faster feedback loops and quicker identification of issues.
+6.Branch-Level Permissions and Access Control: 
+7.Branch-Specific Notifications:
+Overall, multi-branch pipelines offer greater automation, flexibility, and control when working with multiple branches in your version control system. They streamline the CI/CD process, improve development workflows, and enhance collaboration among team members working on different branches.
+--------------
 17. Have you worked on Jenknsfile? can we use docker container as a node in Jenkinsfile? Who will handle docker container creation and deletion? If i am building a maven project always docker container is fresh instance it will try to download dependency from repository, what measures you will take to reduce build time?
 18. Why we need multi branch pipeline?
 19. If you forget Jenkins password, how would you login back?
