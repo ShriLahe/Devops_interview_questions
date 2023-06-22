@@ -38,12 +38,15 @@ Jenkins
 Docker
 ------------------------------------------------------------------------------------------------------------------------------
 20. Any 3 best practices of docker?
+------------------
 21. Difference between docker stop and docker kill?
-22. Command to list conatiners which state is exited?
-23. command to clean-up docker host ( deleting stopped conatiners, dangling images and unused networks)?
-24. What version of docker you have used? Specific reason to use that particular version?
-25. Can we have multiple CMD in Dockerfile?
-26. Have you worked on docker swarm and docker compose?
+Ans-docker stop allows the container to gracefully shut down by sending a SIGTERM signal followed by a SIGKILL signal if necessary, while docker kill forcefully terminates the container by sending a SIGKILL signal without any grace period.
+-----------------
+23. Command to list conatiners which state is exited?
+24. command to clean-up docker host ( deleting stopped conatiners, dangling images and unused networks)?
+25. What version of docker you have used? Specific reason to use that particular version?
+26. Can we have multiple CMD in Dockerfile?
+27. Have you worked on docker swarm and docker compose?
 
 Kubernetes
 --------------------------------------------------------------------------------------------------------------------------------------
